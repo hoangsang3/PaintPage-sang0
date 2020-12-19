@@ -1,0 +1,32 @@
+body {
+    width: 700;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+    background: url("img/background.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#btnClear {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.control {
+    flex: 1;
+
+    .colorPicker {
+        width: 50px;
+        height: 100px;
+        cursor: pointer;
+    }
+}
+
+#draw {
+    cursor: crosshair;
+    border-left: 1px solid black;
+    background: white;
+}

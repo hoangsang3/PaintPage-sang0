@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Drawing</title>
+
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet/less" type="text/css" href="style.less" />
+        <script
+            rel="preload"
+            as="script"
+            crossorigin="anonymous"
+            src="//cdn.jsdelivr.net/npm/less@3.13"
+        ></script>
+    </head>
+
+    <body>
+        <div class="control">
+            <div class="colorPicker" style="background: rgb(255, 0, 0)"></div>
+            <div class="colorPicker" style="background: rgb(255, 142, 0)"></div>
+            <div class="colorPicker" style="background: rgb(255, 255, 0)"></div>
+            <div class="colorPicker" style="background: rgb(0, 142, 0)"></div>
+            <div class="colorPicker" style="background: rgb(0, 192, 192)"></div>
+            <div class="colorPicker" style="background: rgb(64, 0, 152)"></div>
+            <div class="colorPicker" style="background: rgb(142, 0, 142)"></div>
+        </div>
+
+        <canvas id="draw" width="1000px" height="700px"></canvas>
+
+        <button id="btnClear">Clear</button>
+    </body>
+
+    <script src="script.js"></script>
+    <script src="helper.js"></script>
+</html>
